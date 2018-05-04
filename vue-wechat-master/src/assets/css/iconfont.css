@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474796923_6082804.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474796923_6082804.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474796923_6082804.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474796923_6082804.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474796923_6082804.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+                                
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**/
+.icon-tips-jia::before { content: "\e605"; }
+.icon-return-arrow::before { content: "\e60a"; }
+.icon-tips-add-friend::before { content: "\e606"; }
+.icon-chat-set::before { content: "\e60e"; }
+.icon-mute::before { content: "\e604"; }
+.icon-tips-xiaoxi::before { content: "\e607"; }
+.icon-chat-person::before { content: "\e60c"; }
+.icon-chat-friends::before { content: "\e60c"; }
+.icon-more::before { content: "\e60b"; }
+.icon-tips-saoyisao::before { content: "\e608"; }
+.icon-wechat::before { content: "\e600"; }
+.icon-me::before { content: "\e601"; }
+.icon-dialogue-jia::before { content: "\e615"; }
+.icon-tips-fukuan::before { content: "\e609"; }
+.icon-contact::before { content: "\e610"; }
+.icon-find::before { content: "\e603"; }
+.icon-chat-group::before { content: "\e60d"; }
+.icon-chat-detail-add::before { content: "\e616"; }
+
+.icon-dialogue-voice::before { content: "\e60f"; }
+.icon-dialogue-jianpan::before { content: "\e611"; }
+.icon-dialogue-smile::before { content: "\e612"; }
+.icon-dialogue-bar-jianpan::before{ content: "\e602"; }
+.icon-dialogue-bar-menu::before{ content: "\e613"; }
+.icon-search::before{ content: "\e614"; }
+.icon-iphone-address::before{ content: "\e617"; }
+
+
+
+[class^="weui-icon_"]:before, [class*=" weui-icon_"]:before {
+    margin: 0;
+}
+.weui-icon-success {
+    font-size: 23px;
+    color: #09BB07;
+}
+.weui-icon-waiting {
+    font-size: 23px;
+    color: #10AEFF;
+}
+.weui-icon-warn {
+    font-size: 23px;
+    color: #F43530;
+}
+.weui-icon-info {
+    font-size: 23px;
+    color: #10AEFF;
+}
+
+.weui-icon-success-circle {
+    font-size: 23px;
+    color: #09BB07;
+}
+.weui-icon-success-no-circle {
+    font-size: 23px;
+    color: #09BB07;
+}
+.weui-icon-waiting-circle {
+    font-size: 23px;
+    color: #10AEFF;
+}
+.weui-icon-circle {
+    font-size: 23px;
+    color: #C9C9C9;
+}
+.weui-icon-download {
+    font-size: 23px;
+    color: #09BB07;
+}
+
+.weui-icon-info-circle {
+    font-size: 23px;
+    color: #09BB07;
+}
+
+.weui-icon-safe-success {
+    color: #09BB07;
+}
+.weui-icon-safe-warn {
+    color: #FFBE00;
+}
+
+.weui-icon-cancel {
+    color: #F43530;
+    font-size: 22px;
+}
+
+.weui-icon-search {
+    color: #B2B2B2;
+    font-size: 14px;
+}
+
+.weui-icon-clear {
+    color: #B2B2B2;
+    font-size: 14px;
+}
+
+.weui-icon-delete {
+    &.weui-icon_gallery-delete{
+        color:#FFFFFF;
+        font-size:22px;
+    }
+}
+
+.weui-icon_msg {
+    font-size: 93px;
+    &.weui-icon-warn {
+        color: #F76260;
+    }
+}
+.weui-icon_msg-primary {
+    font-size: 93px;
+    &.weui-icon-warn {
+        color: #C9C9C9;
+    }
+}
+
